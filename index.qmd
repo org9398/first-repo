@@ -10,7 +10,7 @@ editor: visual
 library(tidyverse)
 
 ggplot(data = storms) + 
-  geom_point(mapping = aes(x = pressure, y = wind))
+  geom_point(mapping = aes(x = pressure, y = wind), color = "green", alpha = 0.2)
 
 ```
 
