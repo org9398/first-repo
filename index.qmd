@@ -1,0 +1,16 @@
+---
+title: "Class 4 Exercise"
+format:
+  html:
+    self-contained: true
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+
+ggplot(data = storms) + 
+  geom_point(mapping = aes(x = pressure, y = wind))
+
+```
+
